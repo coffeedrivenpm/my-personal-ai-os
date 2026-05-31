@@ -4,6 +4,7 @@ A shareable Claude Code starter vault for personal learning, technical upskillin
 
 This starter is intentionally generic. It does not include personal facts, employer-specific context, customer data, secrets, or private documents. After cloning or unzipping, run Claude Code from this folder and complete the first-run onboarding flow.
 
+
 ## What this vault is for
 
 - Building a hands-on learning system.
@@ -19,6 +20,20 @@ This starter is intentionally generic. It does not include personal facts, emplo
 - Storing confidential employer/customer data.
 - Automatically reading private materials without user approval.
 
+## Quick start
+
+### Option 1: Use as a GitHub template
+
+Click **Use this template** to create your own copy of this repository.
+
+### Option 2: Download as ZIP
+
+Click **Code → Download ZIP** on this repository.
+
+### Option 3: Download the release package
+
+Go to **Releases** and download the latest packaged ZIP.
+
 ## First run
 
 1. Unzip or clone this starter.
@@ -26,6 +41,7 @@ This starter is intentionally generic. It does not include personal facts, emplo
 3. Run:
 
 ```bash
+cd /path/to/<my-personal-ai-os>
 claude
 ```
 
