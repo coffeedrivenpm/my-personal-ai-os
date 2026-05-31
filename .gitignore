@@ -1,0 +1,78 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+
+# Environment/secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# Python/node artifacts
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# Claude local-only settings
+.claude/settings.local.json
+
+# Working/scratch areas
+08-working/scratch/
+08-working/tmp/
+09-outputs/private/
+
+# Private/sensitive area
+# Commit only placeholder README/index files. Do not commit real sensitive notes.
+private/**
+!private/
+!private/**/
+!private/**/README.md
+!private/**/README-private.md
+!private/**/*-index.md
+
+# Always ignore likely sensitive private files
+private/**/*.pdf
+private/**/*.png
+private/**/*.jpg
+private/**/*.jpeg
+private/**/*.heic
+private/**/*.doc
+private/**/*.docx
+private/**/*.xls
+private/**/*.xlsx
+private/**/*.csv
+private/**/*.txt
+private/**/*.json
+private/**/*.yaml
+private/**/*.yml
+private/**/*account*
+private/**/*statement*
+private/**/*passport*
+private/**/*visa*
+private/**/*medical*
+private/**/*insurance*
+private/**/*tax*
+private/**/*ssn*
+private/**/*id*
+
+# Encrypted disk images / local private storage
+*.dmg
+*.sparsebundle/
+*.sparseimage
+private-mounted/
+private-data/
+
+# Archives should be local by default
+99-archive/**
+!99-archive/
+!99-archive/README.md

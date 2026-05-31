@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "default",
+    "disableBypassPermissionsMode": "disable",
+    "disableAutoMode": "disable",
+    "deny": [
+      "Read(private/**)",
+      "Edit(private/**)",
+      "Write(private/**)",
+      "Read(99-archive/**)",
+      "Edit(99-archive/**)",
+      "Write(99-archive/**)",
+      "Read(.env)",
+      "Read(.env.*)",
+      "Edit(.env)",
+      "Edit(.env.*)",
+      "Write(.env)",
+      "Write(.env.*)",
+      "Read(secrets/**)",
+      "Edit(secrets/**)",
+      "Write(secrets/**)",
+      "Bash(rm -rf *)",
+      "Bash(sudo *)",
+      "Bash(chmod -R *)",
+      "Bash(chown -R *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "mcp__computer-use__*"
+    ],
+    "ask": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git rebase *)",
+      "Bash(git merge *)",
+      "Bash(git reset *)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}
